@@ -21,17 +21,9 @@ def generate_yaml():
         'output_prefix_length': 0,
         'test_cases': generate_batches(batches),
     }
-
-    
     yaml_string = yaml.dump(data)
-
-    
     script_directory = os.path.dirname(os.path.abspath(__file__))
-
-    # Specify the file path for the YAML file
     file_path = os.path.join(script_directory, 'init.yml')
-
-    
     with open(file_path, 'w') as file:
         file.write(yaml_string)
 
