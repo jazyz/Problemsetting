@@ -18,7 +18,7 @@ def compile_cpp(filename):
 def gen_random_array(length, lo=-(10**9), hi=10**9):
     a = [0] * n
     for i in range(n):
-        a[i] = random.randint(lo,hi)
+        a[i] = random.randint(lo, hi)
     return a
 
 
