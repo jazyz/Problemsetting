@@ -1,9 +1,9 @@
 # Setter Resources
-Things I use for problem setting!
+Resources for problem setting on dmoj.ca.
 
 ## Solutions
-Solutions to my DMOPC problems on dmoj.ca
+My DMOPC problem solutions in C++.
 
 ## Utils
-Collection of useful scripts for problem setting
+Collection of useful scripts in C++ and Python.
 
